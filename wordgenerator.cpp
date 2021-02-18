@@ -47,14 +47,14 @@ for(int j = 0; j < choice.size(); j++) { // Random letter selection to total len
 			
 		case 1: // Generates a random seed between 1 and 21, selects a const from our vector, pushes it back to our result
 			int con;
-			con = rand() % 21 + 1;
+			con = rand() % 21;
 			char temp2;
 			temp2 = consts[con];
 			result.push_back(temp2);
 			break;
 		case 2:
 			int vow;
-			vow = rand() % 5 + 1; // Number between 1 and 5, selects a vowel from our vector, pushes it back to result
+			vow = rand() % 5; // Number between 1 and 5, selects a vowel from our vector, pushes it back to result
 			char temp3;
 			temp3 = vowels[vow];
 			result.push_back(temp3);
