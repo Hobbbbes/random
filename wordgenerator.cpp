@@ -54,7 +54,7 @@ for(int j = 0; j < choice.size(); j++) { // Random letter selection to total len
 			break;
 		case 2:
 			int vow;
-			vow = rand() % 4 + 1; // Number between 1 and 5, selects a vowel from our vector, pushes it back to result
+			vow = rand() % 5 + 1; // Number between 1 and 5, selects a vowel from our vector, pushes it back to result
 			char temp3;
 			temp3 = vowels[vow];
 			result.push_back(temp3);
